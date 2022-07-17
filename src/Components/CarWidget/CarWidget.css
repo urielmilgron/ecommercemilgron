@@ -1,0 +1,18 @@
+.carWidget {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px 20px;
+  background-color: rgb(230, 230, 223);
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  width: 120px;
+  font-size: 18px;
+  height: 80%;
+  transition: .3s all;
+}
+.imageCart {
+  width: 50px;
+}
+.carWidget:hover{
+    box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.5);
+}
