@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap');
+.Card{
+    background-color: rgb(135, 138, 138);
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 10px;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: all .4s;
+}
+.Card:hover{
+    box-shadow: 1px 4px 8px 0px rgba(79, 38, 38, 0.5);
+}
+.TitleCard{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImgCard{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ImgCard img{
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10px;
+}
+.ButtonCard{
+
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonDetails{
+    width: 80%;
+    border-radius: 10px 5px;
+}
+.StockCard{
+    height:14.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
