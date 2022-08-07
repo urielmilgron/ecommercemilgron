@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap');
+*{
+  text-decoration: none;
+}
 .Navbar {
     display: flex;
   justify-content: space-around;
@@ -29,6 +32,10 @@
   width: 500px;
 }
 .ButtonsCategory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
   height: 80%;
   background-color: rgb(230, 230, 223, 90);
   width: 20%;

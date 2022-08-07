@@ -3,7 +3,7 @@ import "./CarWidget.css";
 const CarWidget = () => {
   return (
     <div className="carWidget">
-      <img className="imageCart" src="images/cart.svg" />5
+      <img className="imageCart" alt="carWidget" src="/images/cart.svg" />5
     </div>
   );
 };
