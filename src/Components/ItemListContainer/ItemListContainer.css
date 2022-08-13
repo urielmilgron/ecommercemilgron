@@ -3,7 +3,7 @@
 
 main{
 margin:0;
-height: 500px;
+height: 1000px;
 display: flex;
 flex-direction: column;
 background-color: rgb(183, 177, 177);
