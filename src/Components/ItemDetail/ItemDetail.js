@@ -1,13 +1,25 @@
 //ItemDetail determina el formato de la tarjeta.
 import './ItemDetail.css'
 import Counter from '../Counter/Counter'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { Link } from 'react-router-dom';
-const ItemDetail = ({ name, price, description, img, stock }) => {
+import CartContext from '../Context/CartContext';
+
+
+const ItemDetail = ({id, name, price, description, img, stock }) => {
     const [quantity, setQuantity] = useState(0)
+
+    const { addItem } = useContext(CartContext)
+
     const handleOnAdd = (quantity) => {
         setQuantity(quantity)
         console.log(`Se agregaron ${quantity} items`)
+        //Defino lo que voy a obtener del producto
+        const productToAdd = {
+            id, name, price, quantity
+        }
+
+        addItem(productToAdd)
     }
     return (
         <div className='main'>
