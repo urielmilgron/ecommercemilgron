@@ -16,7 +16,7 @@ const ItemDetail = ({id, name, price, description, img, stock }) => {
         console.log(`Se agregaron ${quantity} items`)
         //Defino lo que voy a obtener del producto
         const productToAdd = {
-            id, name, price, quantity
+            id, name, price, quantity, img
         }
 
         addItem(productToAdd)

@@ -7,12 +7,21 @@ export const CartContextProvider = ({ children }) => {
     console.log(cart)
     //Añado item
     const addItem = (productToAdd) => {
+        //Si el producto id no esta en el carro => 
         if (!isInCart(productToAdd.id)) {
+            //Agregamos el producto al carro
             //Usando el spread operator, podemos agregar algo al carro
             setCart([...cart, productToAdd])
         } else {
-            alert("Ya agregó ese producto, agregue otro")
+            //Realizo un filtro, si el id del producto coincide con algun item dentro de la lista, no entra
+            //Proximamente se va a realizar una función ya que se repite dicho filtro.
+            const newCartProducts = cart.filter(prod => prod.id !== productToAdd.id)
+            //Pusheo nuevamente el producto
+            newCartProducts.push(productToAdd)
+            //Y lo seteo. Así no puedo llevar más de lo que dice el stock.
+            setCart(newCartProducts)
         }
+
     }
     //Borrar todos los items del carro
     const clearCart = () => {
@@ -39,9 +48,19 @@ export const CartContextProvider = ({ children }) => {
         })
         return acumulador
     }
+   //Muestro el total de todos los productos
+    const totalPriceProd = () => {
+        //Tomo el valor previo total(acumulador), y por cada producto, se multiplica el precio por unidad, acumulandose el precio total de todos los productos
+        //El valor inicial es 0.
+        return cart.reduce((prevPriceProd, actualPriceProd)=> prevPriceProd + actualPriceProd.quantity * actualPriceProd.price,0)
+    }
+
+    const totalProducts = () => {
+
+    }
     return (
 
-        <CartContext.Provider value={{ cart, addItem, getQuantity, isInCart, remove, clearCart }}>
+        <CartContext.Provider value={{ cart, addItem, getQuantity, isInCart, remove, clearCart, totalPriceProd }}>
             {children}
         </CartContext.Provider>
     )
