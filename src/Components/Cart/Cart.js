@@ -13,7 +13,7 @@ if (cart.length === 0){
     <Link to='/' className='linkCart'>Ir al inicio</Link>
     </main>
 }
-    return(<main className='mainCart'>{cart.map(product => <ItemCart key={product.id} product={product}></ItemCart>)} <p>Precio total: {totalPriceProd()}</p></main>)
+    return(<main className='mainCart'>{cart.map(product => <ItemCart key={product.id} product={product}></ItemCart>)} <p>Precio total: {totalPriceProd()}</p><Link to='/checkout'>Finalizar compra</Link></main>)
 }
 
 export default Cart
