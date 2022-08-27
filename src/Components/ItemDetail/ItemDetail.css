@@ -25,7 +25,7 @@ justify-content: center;
 }
 .divDandP{
     width: 50%;
-    height: 45;
+    height: 300px;
     display:flex;
     justify-content: space-between;
  flex-direction: column;
@@ -38,6 +38,7 @@ justify-content: center;
     width: auto;
     align-items: center;
     height:30%;
+    width: 70%;
     border-radius: 5px 10px;
     box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
     background-color: rgb(228, 228, 228);
@@ -58,4 +59,21 @@ justify-content: center;
     align-items: center;
     width: 50%;
     height: 45%;
+}
+.link{
+    margin: 0;
+    background-color: rgb(228, 228, 228);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 20px;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 170px;
+    height: 40px;
+    transition: all .2s;
+}
+.link:hover{
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 6px 0px rgba(112, 36, 36, 0.5);
 }

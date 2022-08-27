@@ -29,14 +29,14 @@ const ItemDetail = ({id, name, price, description, img, stock }) => {
                 <div className='divDandP'>
                     <div className='detailDescription'><p>{description}</p></div>
                     <div className='detailPrice'><h3>${price}</h3></div>
-                <footer className="detailFooter">
+                <div className="detailFooter">
                     {/* Le agrego el contador si está en 0, y si no está en 0, que aparezca el link */}
                     {
                         quantity === 0 ? (
                             <Counter stock={stock} onAdd={handleOnAdd} />
                         ) : <Link className='link' to='/cart'>Finalizar Compra</Link>
                     }
-                </footer>
+                </div>
                 </div>
             </div>
         </div>
