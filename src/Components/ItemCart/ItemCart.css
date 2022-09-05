@@ -1,43 +1,46 @@
-.ItemCart{
-    background-color: rgb(135, 138, 138);
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    height: 160px;
-    width: 510px;
-      border-radius: 5px 10px;
-        box-shadow: 1px 4px 8px 0px rgba(79, 38, 38, 0.5);
+.ItemCart {
+  background-color: rgba(237, 237, 237, 0.695);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  height: 160px;
+  width: 510px;
+  border-radius: 5px 10px;
+  border: 10px;
+  box-shadow: 1px 4px 8px 0px rgba(79, 38, 38, 0.5);
 }
-.ItemsCenter{
-
-height: 150px;
-width: 500px;
-display: flex;
-justify-content: space-around;
+.ItemsCenter {
+  height: 150px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
 }
-.ItemImg{
-width: 150px;
-   background-color: white;
-    border-radius: 10px;
-     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.5);
+.ItemImg {
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.134);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.11);
 }
-.ItemInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.ItemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .ItemInfo p {
-    margin: 0;
+  margin: 0;
 }
-.ItemButton{
+.ItemButton {
+  background-color: aliceblue;
   width: 80px;
   height: 30px;
   border-radius: 10px 5px;
   border: none;
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
-  transition: all .2s;
+  transition: all 0.2s;
 }
-.ItemButton:hover{
-    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.5);
+.ItemButton:hover {
+  box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.5);
 }

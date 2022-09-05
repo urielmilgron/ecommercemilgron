@@ -8,20 +8,18 @@
   width: 120px;
   font-size: 18px;
   height: 80%;
-  transition: .3s all;
+  transition: 0.3s all;
 }
-.carWidgetNone{
+.carWidgetNone {
   background-color: rgb(138, 138, 133);
 }
 .imageCart {
   width: 50px;
 }
-.carWidget:hover{
-    box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.5);
+.carWidget:hover {
+  box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.5);
 }
-.carWidgetNone:hover{
+.carWidgetNone:hover {
   box-shadow: none;
 }
-.carWidgetNone:active{
-  
-}
+

@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap");
+* {
   text-decoration: none;
 }
 .Navbar {
-    display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(92, 92, 89, 36);
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgb(147, 147, 147);
   height: 52px;
 }
 .NombreTienda {
@@ -39,7 +38,7 @@
   height: 80%;
   background-color: rgb(230, 230, 223, 90);
   width: 20%;
-  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.5);
   border-radius: 30px 10px;
   border: none;
   transition: 0.4s all;
@@ -53,11 +52,13 @@
   width: 150px;
 }
 .ButtonsCategory:hover {
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.5);
 }
 .Carrito:hover {
   box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.5);
 }
-.Navbar, .ButtonsCategory, .NombreTienda{
-    font-family: 'Fira Sans Condensed', sans-serif;
+.Navbar,
+.ButtonsCategory,
+.NombreTienda {
+  font-family: "Fira Sans Condensed", sans-serif;
 }
