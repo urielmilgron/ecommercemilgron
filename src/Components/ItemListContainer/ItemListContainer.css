@@ -2,14 +2,16 @@
 
 main {
   margin: 0;
-  min-height: 650px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   background-image: url("../../../public/images/sofa-modelo-genio.jpeg");
 }
 .containerList {
+  background-color: rgba(255, 246, 228, 0.461);
   width: 95%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }

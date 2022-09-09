@@ -10,12 +10,14 @@ const Cart = () => {
   if (cart.length === 0) {
     return (
       <main className="mainCart">
+        <div className="divTitleCart">
         <h2 className="titleCart">
           Ops! Parece que no hay elementos en el carro
         </h2>
         <Link to="/" className="linkCart">
           Ir al inicio
         </Link>
+        </div>
       </main>
     );
   }

@@ -2,10 +2,13 @@
 * {
   text-decoration: none;
 }
-.Navbar {
+.Navbar,
+.Categorias {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.Navbar {
   background-color: rgb(147, 147, 147);
   height: 52px;
 }
@@ -24,10 +27,7 @@
   color: rgb(217, 217, 210, 85);
 }
 .Categorias {
-  display: flex;
   height: 100%;
-  align-items: center;
-  justify-content: space-around;
   width: 500px;
 }
 .ButtonsCategory {

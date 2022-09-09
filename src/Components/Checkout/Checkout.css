@@ -1,18 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap");
-.divForm {
-  height: 500px;
+.divForm,
+.formCheck {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
+  border-radius: 10px;
+}
+.divForm {
+  margin-top: 20px;
+  background-color: rgba(211, 211, 211, 0.9);
+  height: 500px;
+  width: 600px;
+  justify-content: space-evenly;
 }
 .formCheck {
   height: 60%;
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  width: 70%;
+  justify-content: space-around;
 }
 .divInput {
   display: flex;
@@ -22,7 +26,7 @@
   height: 10%;
 }
 .labelForm {
-  width: 20%;
+  width: 30%;
   font-family: "Fira Sans Condensed", sans-serif;
 }
 .inputForm {
@@ -39,11 +43,14 @@
 }
 .createOrd {
   height: 15%;
+  width: 25%;
+  background-color: rgb(235, 235, 235);
 }
 .obligatory {
   transition: all 3s;
   font-family: "Fira Sans Condensed", sans-serif;
-  background-color: bisque;
+  color: white;
+  background-color: rgb(255, 48, 48);
   width: 25%;
   border-radius: 2px 5px;
   font-size: 12px;

@@ -14,17 +14,19 @@
 .Card:hover {
   box-shadow: 1px 4px 8px 0px rgba(79, 38, 38, 0.5);
 }
-.TitleCard {
-  height: 45px;
+.TitleCard,
+.ImgCard,
+.StockCard,
+.ButtonCard {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.TitleCard {
+  height: 45px;
+}
 .ImgCard {
   height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .ImgCard img {
   width: 95%;
@@ -34,9 +36,6 @@
 }
 .ButtonCard {
   height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .ButtonDetails {
   background-color: rgba(241, 241, 241, 0.802);
@@ -45,7 +44,4 @@
 }
 .StockCard {
   height: 14.8%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
