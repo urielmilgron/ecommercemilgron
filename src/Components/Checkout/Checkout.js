@@ -83,7 +83,7 @@ const Checkout = () => {
         const stockFirestore = dataIn.stock; //El stock está en el dataIn
 
         //Comparamos trayendonos el stock del carrito
-        const getProductToCart = cart.find((prod) => prod.id == doc.id); //Si prod.id es == a doc.id, traelo
+        const getProductToCart = cart.find((prod) => prod.id === doc.id); //Si prod.id es == a doc.id, traelo
 
         const prodQuantity = getProductToCart?.quantity; //Si se encontraron productos, traenos la cantidad.
 
@@ -131,20 +131,24 @@ const Checkout = () => {
   if (isLoading) {
     return (
       <main className="mainLoading">
+        <div className="divLoader">
         {" "}
         <div className="loader"></div>{" "}
         <h2 className="titleCart">Se está generando tu orden</h2>
+        </div>
       </main>
     );
   }
   if (orderCreated) {
     return (
       <main>
+        <div className="divLoader">
         <h2 className="titleCart">
           Se ha generado tu orden con éxito, se te redireccionará al inicio en
           unos instantes! El número de orden lo recibiras en tu email en unos
           minutos, gracias por su compra!
         </h2>
+        </div>
       </main>
     );
   }

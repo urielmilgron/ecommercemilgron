@@ -9,7 +9,7 @@ main {
   background-image: url("../../../public/images/sofa-modelo-genio.jpeg");
 }
 .containerList {
-  background-color: rgba(255, 246, 228, 0.461);
+  background-color: rgba(233, 233, 233, 0.461);
   width: 95%;
   height: 100%;
   display: flex;

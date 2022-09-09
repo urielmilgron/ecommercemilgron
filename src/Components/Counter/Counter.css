@@ -1,5 +1,5 @@
 .CountainCounter {
-  background-color: rgba(241, 241, 241, 0.836);
+  background-color: rgba(17, 255, 0, 0.344);
   display: flex;
   border: 1px solid rgba(0, 0, 0, 0.121);
   flex-direction: column;
@@ -20,7 +20,7 @@
   width: 40px;
   height: 40px;
   font-size: 20px;
-  background-color: rgba(255, 255, 255, 0.029);
+  background-color: rgba(255, 255, 255, 0.873);
 }
 .addCart {
   height: 50%;
