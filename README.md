@@ -18,6 +18,8 @@ $ npm start
 $ /
 $ /category/{id} (mesas, sillas, exterior)
 $ /item/{id} (1,2,3)
+$ /cart
+$ /checkout
 ```
 
 ## Built Using
