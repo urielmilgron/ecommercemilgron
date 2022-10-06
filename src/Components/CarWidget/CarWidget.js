@@ -8,7 +8,7 @@ const CarWidget = () => {
   const quantity = getQuantity();
   if (quantity === 0) {
     return (
-      <div className="carWidgetNone carWidget">
+      <div className="carWidget carWidgetNone">
         <img className="imageCart" alt="carWidget" src="/images/cart.svg" />
         {quantity}
       </div>

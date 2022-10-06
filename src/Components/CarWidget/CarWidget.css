@@ -2,22 +2,21 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-radius: 40px 20px;
-  background-color: rgb(230, 230, 223);
-  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
   width: 120px;
   font-size: 18px;
   height: 80%;
-  transition: 0.3s all;
+  transition:all .4s;
 }
 .carWidgetNone {
-  background-color: rgb(138, 138, 133);
+  background-color: rgb(215, 215, 215);
 }
 .imageCart {
   width: 50px;
 }
 .carWidget:hover {
-  box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.272);
 }
 .carWidgetNone:hover {
   box-shadow: none;

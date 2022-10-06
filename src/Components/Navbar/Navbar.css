@@ -3,59 +3,55 @@
   text-decoration: none;
 }
 .Navbar,
-.Categorias {
+.Categorias,
+.NombreTienda,
+.ButtonsCategory,
+.divCarrito {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+.NombreTienda,
+.ButtonsCategory,
+.divCarrito {
+  justify-content: center;
+}
 .Navbar {
-  background-color: rgb(147, 147, 147);
+  background-color: rgb(255, 255, 255);
   height: 52px;
 }
 .NombreTienda {
   width: 150px;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .NombreTienda h4 {
   transition: 0.2s all;
-  color: rgb(255, 255, 255);
+  color: rgb(101, 101, 101);
 }
 .NombreTienda h4:hover {
-  color: rgb(217, 217, 210, 85);
+  color: rgb(53, 53, 53);
 }
 .Categorias {
   height: 100%;
   width: 500px;
 }
 .ButtonsCategory {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
+  color: rgb(54, 54, 54);
   height: 80%;
-  background-color: rgb(230, 230, 223, 90);
+  background-color: rgb(244, 244, 244);
   width: 20%;
-  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.5);
-  border-radius: 30px 10px;
+  border-radius: 5px;
   border: none;
   transition: 0.4s all;
   font-size: 15px;
 }
 .divCarrito {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
   width: 150px;
 }
 .ButtonsCategory:hover {
-  box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.5);
-}
-.Carrito:hover {
-  box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.246);
+  color: black;
 }
 .Navbar,
 .ButtonsCategory,
