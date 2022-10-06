@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Poiret+One&display=swap');
 .Card {
-  background-color: rgba(232, 232, 232, 0.951);
+  background-color: rgba(255, 255, 255, 0.951);
   width: 180px;
   height: 300px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 5px 10px;
+  border-radius: 3px;
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
   transition: all 0.4s;
 }
@@ -25,14 +25,19 @@
 .TitleCard {
   height: 45px;
 }
+.TitleCard h4{
+  font-family: 'Poiret One', cursive;
+  font-size: large;
+
+}
 .ImgCard {
   height: 50%;
 }
 .ImgCard img {
   width: 95%;
   height: 95%;
-  background-color: white;
-  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
 }
 .ButtonCard {
   height: 20%;

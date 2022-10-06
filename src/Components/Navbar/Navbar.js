@@ -6,20 +6,20 @@ const Navbar = () => {
   return (
     <nav className="Navbar">
       <div className="NombreTienda">
-        <h4>SyM Caleta</h4>
+        <h4>SYM Caleta</h4>
       </div>
       <div className="Categorias">
         <Link to="/" className="ButtonsCategory">
-          Home
+          HOME
         </Link>
         <Link to="/category/mesas" className="ButtonsCategory">
-          Mesas
+          MESAS
         </Link>
         <Link to="/category/sillas" className="ButtonsCategory">
-          Sillas
+          SILLAS
         </Link>
         <Link to="/category/exterior" className="ButtonsCategory">
-          Exterior
+          EXTERIOR
         </Link>
       </div>
       <CarWidget />

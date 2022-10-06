@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 * {
   text-decoration: none;
 }
@@ -17,7 +18,8 @@
   justify-content: center;
 }
 .Navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(244, 244, 244);
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.229);
   height: 52px;
 }
 .NombreTienda {
@@ -25,8 +27,10 @@
   height: 100%;
 }
 .NombreTienda h4 {
+  letter-spacing: 1px;
+  font-family: 'Italiana', serif;
   transition: 0.2s all;
-  color: rgb(101, 101, 101);
+  color: rgba(3, 3, 3, 0.908);
 }
 .NombreTienda h4:hover {
   color: rgb(53, 53, 53);
@@ -36,13 +40,14 @@
   width: 500px;
 }
 .ButtonsCategory {
-  color: rgb(54, 54, 54);
+  color: rgba(54, 54, 54, 0.914);
+  letter-spacing: 1px;
   height: 80%;
-  background-color: rgb(244, 244, 244);
   width: 20%;
   border-radius: 5px;
   border: none;
-  transition: 0.4s all;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.429);
+  transition: .6s all;
   font-size: 15px;
 }
 .divCarrito {
@@ -50,7 +55,8 @@
   width: 150px;
 }
 .ButtonsCategory:hover {
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.246);
+  box-shadow: 0px 1px 1px 0px rgba(75, 30, 6, 0.571);
+  background-color: rgb(240, 238, 238);
   color: black;
 }
 .Navbar,

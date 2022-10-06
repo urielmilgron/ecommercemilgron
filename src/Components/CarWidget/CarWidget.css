@@ -4,21 +4,45 @@
   align-items: center;
   border-radius: 5px;
   background-color: rgb(244, 244, 244);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.429);
   width: 120px;
   font-size: 18px;
   height: 80%;
   transition:all .4s;
+  animation: alternate infinite 10s fullCar;
 }
 .carWidgetNone {
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(244, 244, 244);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+  animation: none;
 }
 .imageCart {
   width: 50px;
 }
+@keyframes fullCar {
+  0%{
+    background-color: rgb(230, 230, 230);
+    color: black;
+  }
+  50%{
+    background-color: rgb(209, 209, 209);
+    color: rgb(95, 94, 94);
+  }
+  100%{
+    background-color: rgb(244, 244, 244);
+    color: rgb(0, 0, 0);
+  }
+}
 .carWidget:hover {
+  border-radius: 2px;
   box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.272);
+  height: 95%;
 }
 .carWidgetNone:hover {
   box-shadow: none;
+  background-color: rgb(244, 244, 244);
+  color: rgb(0, 0, 0);
+  height: 80%;
 }
+
 
