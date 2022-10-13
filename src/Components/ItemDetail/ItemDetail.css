@@ -1,8 +1,9 @@
-.main {
+.mainDetail {
   width: 90%;
   height: 410px;
-  background-color: rgba(186, 185, 185, 0.765);
-  border-radius: 10px;
+  background-color: rgba(254, 254, 254, 0.765);
+  border-top: 0.8px solid black;
+  border-bottom: 0.8px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,12 +13,13 @@
 .detailDescription,
 .detailPrice,
 .detailFooter,
-.link {
+.linkDetail {
   display: flex;
   justify-content: center;
 }
 .titleDetail {
   width: 100%;
+  font-family: 'Poiret One', cursive;
 }
 .detailImg {
   width: 50%;
@@ -25,42 +27,47 @@
 .detailImg img {
   width: 300px;
   background-color: rgb(255, 255, 255);
-  border-radius: 5px 10px;
-  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border-right: 0.8px solid black;
+  border-left: 0.8px solid black;
 }
 .divDetail {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: medium;
 }
 .divDandP {
-  width: 50%;
+  width: 40%;
   height: 300px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
   align-items: center;
 }
 .detailDescription {
   width: auto;
   align-items: center;
+  
+  border-bottom: 0.8px solid black;
   height: 30%;
-  width: 90%;
-  border-radius: 5px 10px;
+  width: 100%;
 }
 
 .detailPrice {
+  font-family: 'PT Sans Narrow', sans-serif;
+  align-items: center;
   width: 30%;
   height: 20%;
-  border-radius: 5px 10px;
-  background-color: rgba(255, 255, 255, 0.627);
+  border-top: 0.8px solid black;
+  border-bottom: 0.8px solid black;
 }
 .detailFooter {
   align-items: center;
   width: 50%;
-  height: 45%;
+  height: 30%;
 }
-.link {
+.linkDetail {
   margin: 0;
   background-color: rgb(228, 228, 228);
   color: black;
@@ -71,7 +78,7 @@
   height: 40px;
   transition: all 0.2s;
 }
-.link:hover {
+.linkDetail:hover {
   letter-spacing: 1px;
   box-shadow: 3px 3px 6px 0px rgba(112, 36, 36, 0.5);
 }

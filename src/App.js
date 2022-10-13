@@ -21,7 +21,7 @@ function App() {
             <Route
               path="/"
               element={
-                <ItemListContainer greeting="Bienvenidos a nuestra Tienda!" />
+                <ItemListContainer greeting="HOME" />
               }
             />
             <Route

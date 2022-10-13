@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
 main {
   margin: 0;
@@ -15,10 +15,24 @@ main {
   flex-direction: column;
 }
 .title {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+ 
+  letter-spacing: 1px;
   margin: 30px;
 }
 .productsSection {
   display: flex;
   justify-content: space-evenly;
+}
+.firstTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.firstTitle h1{
+  width: 15%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }

@@ -12,12 +12,13 @@ const Item = ({ id, name, img, stock }) => {
         <img src={img} alt={name}></img>
       </div>
       {/* Le seteamos la url al botón ver detalle */}
+      <div className="StockCard">STOCK: {stock}</div>
       <div className="ButtonCard">
-        <Link to={`/item/${id}`} className="ButtonsCategory ButtonDetails">
-          Ver detalles
+        <Link to={`/item/${id}`} className="ButtonDetails">
+          VER DETALLES
         </Link>
       </div>
-      <div className="StockCard">Stock: {stock}</div>
+      
     </div>
   );
 };

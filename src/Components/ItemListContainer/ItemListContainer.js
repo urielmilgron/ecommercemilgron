@@ -50,7 +50,7 @@ const ItemListContainer = ({ greeting }) => {
       <div className="containerList">
         <div className="firstTitle">
           {" "}
-          <h1 className="title">{greeting}</h1>
+          <h1 className="title">{categoryId == undefined? 'HOME' : categoryId.toUpperCase()}</h1>
         </div>
         <section className="productsSection">
           <ItemList products={products} />

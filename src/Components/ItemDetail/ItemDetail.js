@@ -25,8 +25,8 @@ const ItemDetail = ({ id, name, price, description, img, stock }) => {
     addItem(productToAdd);
   };
   return (
-    <div className="main">
-      <h2 className="title titleDetail">{name}</h2>
+    <div className="mainDetail">
+      <h2 className="titleDetail">{name}</h2>
       <div className="divDetail">
         <div className="detailImg">
           <img className="detailImage" src={img} />
@@ -36,14 +36,14 @@ const ItemDetail = ({ id, name, price, description, img, stock }) => {
             <p>{description}</p>
           </div>
           <div className="detailPrice">
-            <h3>${price}</h3>
+            <h3>Precio: ${price}</h3>
           </div>
           <div className="detailFooter">
             {/* Le agrego el contador si está en 0, y si no está en 0, que aparezca el link */}
             {quantity === 0 ? (
               <Counter stock={stock} onAdd={handleOnAdd} />
             ) : (
-              <Link className="link" to="/cart">
+              <Link className="linkDetail" to="/cart">
                 Finalizar Compra
               </Link>
             )}
