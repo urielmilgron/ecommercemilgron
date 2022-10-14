@@ -12,7 +12,7 @@
   animation: alternate infinite 10s fullCar;
 }
 .carWidgetNone {
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(229, 229, 229);
   border-bottom: 1px solid rgba(0, 0, 0, 0.137);
   animation: none;
 }
@@ -21,27 +21,25 @@
 }
 @keyframes fullCar {
   0%{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(246, 246, 246);
     color: black;
   }
   50%{
-    background-color: rgb(209, 209, 209);
-    color: rgb(95, 94, 94);
+    background-color: rgb(255, 228, 221);
+    color: rgb(255, 77, 6);
   }
   100%{
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(242, 242, 242);
     color: rgb(0, 0, 0);
   }
 }
 .carWidget:hover {
-  border-radius: 2px;
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.272);
-  height: 95%;
+  box-shadow: 0px 1px 1px 0px rgba(75, 30, 6, 0.571);
 }
 .carWidgetNone:hover {
   box-shadow: none;
-  background-color: rgb(244, 244, 244);
-  color: rgb(0, 0, 0);
+  background-color: rgb(212, 212, 212);
+  color: rgb(255, 0, 0);
   height: 80%;
 }
 

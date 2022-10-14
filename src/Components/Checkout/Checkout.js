@@ -155,7 +155,7 @@ const Checkout = () => {
   return (
     <main>
       <div className="divForm">
-        <h2 className="titleCart">Checkout</h2>
+        <h2 className="titleCart">CHECKOUT</h2>
         <form className="formCheck" onSubmit={handleSubmit(createOrder)}>
           <div className="divInput">
             <label className="labelForm">Nombre</label>

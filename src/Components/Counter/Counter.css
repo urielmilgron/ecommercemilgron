@@ -1,8 +1,8 @@
 .CountainCounter {
   background-color: rgba(255, 255, 255, 0.344);
   display: flex;
-  border-left: 0.8px solid black;
-  border-right: 0.8px solid black;
+  border: 0.8px solid black;
+  border-radius: 5px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -32,7 +32,7 @@
   transition: all .5s;
 }
 .buttonsCounter:hover{
-  background-color: black;
+  background-color: rgb(41, 19, 10);
   color: white;
 }
 .addCart {
@@ -51,6 +51,6 @@
   transition: all .5s;
 }
 .btnAddCart:hover{
-  background-color: black;
+  background-color: rgb(41, 19, 10);
   color: white;
 }
