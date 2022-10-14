@@ -13,6 +13,7 @@ const ItemListContainer = ({ greeting }) => {
   const { categoryId } = useParams(); //Este parametro va a ser el id de la categoría
 
   useEffect(() => {
+    setLoading(true)
     //CollectionRef es igual a => Si no tengo categoryId, pasame los productos, y si no, consultame dentro de la coleccion, la categoria que sea igual a categoryId
     const collectionRef = !categoryId
       ? collection(db, "products")

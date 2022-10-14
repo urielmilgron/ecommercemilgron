@@ -20,21 +20,23 @@
   min-height: 700px;
 }
 .containerMainCart {
-  background-color: rgba(209, 209, 209, 0.63);
   width: 95%;
-  min-height: 650px;
+  min-height: 500px;
 }
 .divCartitle {
-  width: 200px;
-  background-color: rgba(188, 190, 191, 0.739);
-  border-radius: 10px;
+  margin: 40px;
+  width: 300px;
+  border-radius: 2px;
   height: 52px;
-  margin: 15px;
-  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
 }
 .titleCart,
 .linkCart {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.titleCart{
+  font-weight: 300;
 }
 .divTitleCart {
   background-color: rgba(250, 252, 252, 0.703);
@@ -46,24 +48,24 @@
   border-radius: 2px;
 }
 .finalPrice {
-  background-color: rgba(229, 228, 228, 0.938);
-  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.727);
-  border-radius: 10px;
-  font-size: 20px;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  border-radius: 2px;
+  font-size: 17px;
   width: 170px;
   height: 42px;
 }
 .linkCart {
-  background-color: rgba(255, 255, 255, 0.793);
   color: black;
-  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.5);
-  border-radius: 10px 20px;
+  border: 0.5px solid black;
+  border-radius: 2px;
   width: 100px;
-  height: 50px;
-  transition: all 0.2s;
+  min-height: 50px;
+  transition: all .5s;
 }
 .linkCart:hover {
-  box-shadow: 4px 4px 8px 0px rgba(79, 38, 38, 0.5);
+background-color: rgb(23, 17, 4);
+color: white;
 }
 .linkCart:active {
   box-shadow: none;
