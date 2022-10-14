@@ -8,9 +8,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 500px;
 }
 .loader {
-  border: 16px solid #0d8120; /* Light grey */
+  border: 16px solid #181818; /* Light grey */
   border-top: 16px solid #ababab; /* Blue */
   border-radius: 50%;
   width: 120px;
