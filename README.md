@@ -27,4 +27,4 @@ $ /checkout
 - [Create-React-App](https://create-react-app.dev/)
 - [Firebase](https://firebase.com)
 
-![Gif del proyecto](https://raw.githubusercontent.com/urielmilgron/ecommercemilgron/master/public/demo.gif)
+![Gif del proyecto](https://raw.githubusercontent.com/urielmilgron/ecommercemilgron/master/public/newVersionDemo.gif)
