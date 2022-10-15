@@ -12,7 +12,7 @@
   animation: alternate infinite 10s fullCar;
 }
 .carWidgetNone {
-  background-color: rgb(229, 229, 229);
+
   border-bottom: 1px solid rgba(0, 0, 0, 0.137);
   animation: none;
 }
@@ -38,7 +38,7 @@
 }
 .carWidgetNone:hover {
   box-shadow: none;
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(239, 239, 239);
   color: rgb(255, 0, 0);
   height: 80%;
 }

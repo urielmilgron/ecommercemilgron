@@ -44,7 +44,7 @@ const ItemDetail = ({ id, name, price, description, img, stock }) => {
               <Counter stock={stock} onAdd={handleOnAdd} />
             ) : (
               <Link className="linkDetail" to="/cart">
-                Finalizar Compra
+                Ir al carrito
               </Link>
             )}
           </div>

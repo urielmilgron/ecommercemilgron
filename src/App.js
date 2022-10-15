@@ -9,6 +9,7 @@ import { CartContextProvider } from "./Components/Context/CartContext";
 import Cart from "./Components/Cart/Cart";
 
 import Checkout from "./Components/Checkout/Checkout";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </CartContextProvider>
+      <Footer/>
     </div>
   );
 }

@@ -20,6 +20,7 @@
 .titleDetail {
   width: 100%;
   font-family: 'Poiret One', cursive;
+  font-weight: 400;
 }
 .detailImg {
   width: 50%;
@@ -48,12 +49,13 @@
 .detailDescription {
   width: auto;
   align-items: center;
-  
   border-bottom: 0.8px solid black;
   height: 30%;
   width: 100%;
 }
-
+.detailDescription p{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
 .detailPrice {
   font-family: 'PT Sans Narrow', sans-serif;
   align-items: center;
@@ -61,6 +63,9 @@
   height: 20%;
   border-top: 0.8px solid black;
   border-bottom: 0.8px solid black;
+}
+.detailPrice h3{
+  font-weight: 300;
 }
 .detailFooter {
   align-items: center;

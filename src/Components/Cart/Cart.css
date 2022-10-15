@@ -15,9 +15,8 @@
   justify-content: center;
   align-items: center;
 }
-.mainCart {
-  background-image: url("../../../public/images/sofa-modelo-genio.jpeg");
-  min-height: 700px;
+.mainCart{
+  min-height: 450px;
 }
 .containerMainCart {
   width: 95%;
@@ -41,7 +40,6 @@
 .divTitleCart {
   background-color: rgba(250, 252, 252, 0.703);
   justify-content: space-evenly;
-  margin-bottom: 400px;
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.727);
   width: 500px;
   height: 200px;
@@ -57,7 +55,7 @@
 }
 .linkCart {
   color: black;
-  border: 0.5px solid black;
+  border: 0.9px solid black;
   border-radius: 2px;
   width: 100px;
   min-height: 50px;

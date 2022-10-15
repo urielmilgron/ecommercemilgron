@@ -229,7 +229,7 @@ const Checkout = () => {
             )}
           </div>
           <input
-            className="ButtonsCategory createOrd"
+            className="createOrd"
             type="submit"
             value="Generar orden"
           />
